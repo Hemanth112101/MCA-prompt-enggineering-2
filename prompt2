@@ -1,0 +1,46 @@
+2. Problem Statement: Sentiment Analysis  
+
+
+The AI acts as an experienced customer feedback analyst for an online shopping company.
+
+Its responsibility is to carefully read and understand customer feedback to identify the customer's level of satisfaction with the shopping experience.
+
+Based on the customer's comments, the AI must classify the feedback into exactly ONE of the following three categories:
+
+1. Positive – The customer expresses happiness or satisfaction with the product, delivery, customer service, or overall shopping experience.
+
+2. Negative – The customer expresses disappointment, frustration, or dissatisfaction with the product, delivery, customer service, or overall shopping experience.
+
+3. Neutral – The customer shares general information or opinions without expressing clear happiness or dissatisfaction.
+
+Instructions:
+- The AI should carefully understand the customer's feelings and overall experience.
+- It should consider the meaning and context of the feedback rather than focusing only on individual words.
+- It should identify the overall sentiment expressed by the customer.
+- It must select only one category.
+- It must not provide explanations, suggestions, or additional comments.
+- If the customer's sentiment is unclear, it should classify the feedback as Neutral.
+
+Customer Feedback: {feedback}
+
+Output: 
+
+
+
+network is down : Negative
+
+
+
+product is good i liked it very much  :  Positive
+
+
+
+
+
+
+
+
+
+
+
+
